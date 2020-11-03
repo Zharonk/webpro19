@@ -1,0 +1,113 @@
+/* Header */
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/wota.jpeg) no-repeat center center;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+    -o-background-size: cover;
+}
+a {
+    color: #8eb640;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+p {
+    font-size: 16px;
+}
+
+h2 {
+        margin: 0 0 20px 0;
+        font-weight: 500;
+        font-size: 34px;
+        color: #333;
+        text-transform: uppercase;
+}
+p.intro {
+	margin: 12px 0 0;
+    line-height: 24px;
+}
+
+header .intro-text {
+        padding-top: 250px;
+        padding-bottom: 200px;
+        text-align: center;
+}
+
+.btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #72a411;
+	border: 0;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	border-radius: 0;
+	margin-top: 20px;
+	transition: all 0.5s;
+}
+.intro p {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.intro h1 {
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 64px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+body {
+    background: lightblue url(/img/aqu.jpg) center top no-repeat fixed;
+    background-size: cover;
+}
+/* About */
+#about {
+    padding: 25px 0;
+}
+#about .about-img {
+    display: inline-block;
+	position: relative;
+}
+#about .about-text {
+	margin-left: 10px;
+}
+
+/* Menu Section */
+#restaurant-menu {
+    padding:10px 0;
+    width: 1;
+}
+#restaurant-menu .section-title {
+	background: #444 url(../img/manga.jpg) center center no-repeat fixed;
+	background-size:cover;
+}
+
+.button-custom {
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #72a411;
+	border: 0;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	border-radius: 0;
+	margin-top: 20px;
+    transition: all 0.5s;
+}
