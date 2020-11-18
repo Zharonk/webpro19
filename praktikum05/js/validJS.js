@@ -48,7 +48,7 @@ let tujuan = document.getElementById("tujuan")
 let messageTujuan = document.getElementById("messageTujuan")
 
 tujuan.onkeyup = function () {
-    if (tujuan.value == "Indonesia" || tujuan.value == "Rusia" || tujuan.value == "Jepang") {
+    if (tujuan.value.toUpperCase() == "INDONESIA" || tujuan.value.toUpperCase() == "RUSIA" || tujuan.value.toUpperCase() == "JEPANG") {
         messageTujuan.classList.remove("invalid")
         messageTujuan.classList.add("valid")
     } else {

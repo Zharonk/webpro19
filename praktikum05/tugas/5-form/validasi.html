@@ -26,11 +26,26 @@
             content: "✖";
         }
     </style>
-
+    <link rel="stylesheet" type="text/css" href="../../css/colorWhite.css">
 </head>
 
-<body>
-    <form>
+<body background="../../img/bg.jpeg">
+    <nav style="background-color: whitesmoke;">
+        <table cellPadding="10" style="border-collapse: collapse;">
+            <tr>
+                <th><img src="../../img/logo.jpeg" width="50" alt=""></th>
+                <th style="width: 15%;"><a href="../index.html" style="color: black;">Area WIBU Form</a></th>
+                <th style="width: 100%;"></th>
+                <th><a href="../1-login/login.html">Login</a></th>
+                <th><a href="../2-kurs/kurs.html">Kurs</a></th>
+                <th><a href="../3-chat/chat.html">Chat</a></th>
+                <th><a href="../4-image/dropdown.html">Dropdown</a></th>
+                <th><a href="#">Validation</a></th>
+            </tr>
+        </table>
+    </nav>
+    <form class="colorWhite">
+        <h1 class="classWhite">Validation Form</h1>
         <!-- namaPengguna -->
         <label for="nama">Nama Pelanggan</label>
         <input type="text" name="nama" id="namaPengguna" pattern=".{,30}" title="Max 30 character dan harus di isi"
@@ -69,7 +84,7 @@
 
         <!-- Jumlah tiket -->
         <label for="jumlah">Jumlah Tiket</label>
-        <input type="number" name="jumlah" id="jumlah" required>
+        <input type="text" name="jumlah" id="jumlah" required>
         <span id="messageJumlah" class="invalid">
             Masukkan jumlah tiket 1 - 10
         </span>
@@ -81,7 +96,7 @@
         <br>
 
     </form>
-    <script id="get" src="codeJS/validJS.js"></script>
+    <script id="get" src="../../js/validJS.js"></script>
 </body>
 
 </html>
